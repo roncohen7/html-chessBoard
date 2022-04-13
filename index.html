@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="index.css" />
     <title>Chess board</title>
     <style>
       .chess-board {
@@ -14,8 +15,8 @@
       }
       .chess-board td {
         border: 1px solid;
-        width: 2em;
-        height: 2em;
+        width: 80px;
+        height: 80px;
       }
       .chess-board .light {
         background: #eee;
@@ -26,6 +27,7 @@
     </style>
   </head>
   <body>
+    <div class="container">
     <table class="Chess-board">
       <tbody>
         <tr>
@@ -127,7 +129,9 @@
           <td class="dark"></td>
           <td class="light"></td>
         </tr>
+        </tr>
       </tbody>
     </table>
+  </div>
   </body>
 </html>
